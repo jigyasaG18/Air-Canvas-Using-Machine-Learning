@@ -34,7 +34,7 @@ hands = mpHands.Hands(max_num_hands=1, min_detection_confidence=0.7)
 mpDraw = mp.solutions.drawing_utils
 
 # Initialize webcam
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 w = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 h = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
