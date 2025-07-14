@@ -95,7 +95,7 @@ pip install opencv-python mediapipe numpy
 ```
 air-canvas/
 │
-├── air_canvas.py         # Main script with drawing logic and MediaPipe hand tracking
+├── app.py         # Main script with drawing logic and MediaPipe hand tracking
 ├── README.md             # Project documentation
 └── requirements.txt      # Dependency list
 ```
