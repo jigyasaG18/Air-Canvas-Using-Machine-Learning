@@ -16,7 +16,6 @@ Welcome to **Air Canvas**, a computer vision-based virtual painting application 
 * [🎯 Use Cases](#-use-cases)
 * [⚠️ Limitations](#-limitations)
 * [🚀 Future Improvements](#-future-improvements)
-* [📃 License](#-license)
 
 ---
 
