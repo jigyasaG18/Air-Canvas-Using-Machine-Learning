@@ -120,11 +120,12 @@ while True:
                     cv2.line(frame,stroke[i-1],stroke[i],clr,4)
                     cv2.line(paintWindow,stroke[i-1],stroke[i],clr,4)
 
-    cv2.imshow("Output", frame)
-    cv2.imshow("Paint", paintWindow)
+    st.image(frame, channels="BGR", caption="Output")
+    st.image(paintWindow, channels="BGR", caption="Paint")
 
-    if cv2.waitKey(1)==ord('q'):
-        break
+   # Add a short sleep to avoid freezing or overloading UI
+   time.sleep(0.03)  # ~30 FPS
+
 
 cap.release()
 cv2.destroyAllWindows()
